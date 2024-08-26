@@ -1,0 +1,42 @@
+.admin-messages {
+    display: flex;
+}
+
+.main-content {
+    margin-left: 240px; 
+    padding: 20px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.messages-content {
+    background-color: #ecf0f1;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.messages-content h1 {
+    margin-bottom: 20px;
+}
+
+.messages-content ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.messages-content li {
+    background-color: #f4f4f4;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.messages-content li p {
+    margin: 0;
+}
+
+.messages-content li p em {
+    color: #777;
+}

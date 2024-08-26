@@ -1,0 +1,75 @@
+
+.main-content {
+    margin-left: 240px; 
+    padding: 20px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.dashboard-content {
+    background-color: #ecf0f1;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.employee-details-section {
+    margin-top: 20px;
+}
+
+.employee-details-section h2 {
+    margin-bottom: 20px;
+}
+
+.employee-details-section table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.employee-details-section table, 
+.employee-details-section th, 
+.employee-details-section td {
+    border: 1px solid #ddd;
+}
+
+.employee-details-section th, 
+.employee-details-section td {
+    padding: 10px;
+    text-align: left;
+}
+
+.employee-details-section th {
+    background-color: #f4f4f4;
+}
+
+/* Messages Section */
+.messages-section {
+    margin-top: 40px;
+}
+
+.messages-section h2 {
+    margin-bottom: 20px;
+}
+
+.messages-section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.messages-section li {
+    background-color: #f4f4f4;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.messages-section li p {
+    margin: 0;
+}
+
+.messages-section li p em {
+    color: #777;
+}
+
+

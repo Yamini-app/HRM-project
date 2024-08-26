@@ -1,0 +1,113 @@
+/* EmployeeDashboard.css */
+
+body {
+    background-image: url('../assets/hr.jpg'); /* Use the same background image */
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #333;
+}
+
+.employee-dashboard {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    padding-left: 40px;
+    padding-right:80px;
+    display:flex;
+    justify-content: center;
+    margin-right:300px;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 10px 20px;
+}
+
+.navbar-logo {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.navbar-links a {
+    color: white;
+    text-decoration: none;
+    margin-left: 15px;
+}
+.sidebar {
+    width: 240px; /* Adjust width for your sidebar */
+    background-color: rgba(18, 41, 86, 0.9); /* Dark blue sidebar background */
+    padding: 20px;
+    border-right: 1px solid #ddd;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.main-content {
+    margin-left: 200px; 
+    padding: 20px; /* Consistent padding */
+    box-sizing: border-box;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 15px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    overflow-y: auto; /* Allow vertical scrolling if content exceeds height */
+    max-height: 100vh; /* Ensure the content does not overflow vertically */
+}
+
+.dashboard-content {
+    background-color: #ecf0f1;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 1000px; /* Limit the width of the content area */
+    margin-bottom: 20px;
+}
+
+.employee-details-section {
+    margin-top: 20px;
+    width: 100%;
+}
+
+.employee-details-section h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}
+
+.employee-details-section table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: rgba(255, 255, 255, 0.9); /* Match with the main content background */
+    border-radius: 5px;
+    overflow: hidden; /* Ensure border-radius is applied */
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.employee-details-section th, 
+.employee-details-section td {
+    padding: 15px; /* Increase padding for better readability */
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.employee-details-section th {
+    background-color: #f4f4f4;
+    font-weight: bold;
+}
+
+.employee-details-section td {
+    background-color: rgba(255, 255, 255, 0.8); /* Slight transparency for consistency */
+}
